@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANICRAQUE Production | Site en création</title>
+    <style>
+        :root {
+            --bg-overlay: rgba(15, 23, 42, 0.20);
+            --text-main: #ffffff;
+            --text-muted: #cbd5e1;
+            --primary: #e11d48;
+            --linkedin-color: #0077b5;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-image: linear-gradient(var(--bg-overlay), var(--bg-overlay)), url('VDF-capture2-25.jpg');
+            background-size: cover; background-position: center; background-attachment: fixed;
+            color: var(--text-main); line-height: 1.6; padding: 20px;
+        }
+        .container { max-width: 1100px; margin: 40px auto; }
+        header { text-align: center; margin-bottom: 50px; }
+        .logo-img { max-width: 150px; height: auto; display: block; margin: 0 auto 15px auto; }
+        .structure-name { font-size: 3.5rem; font-weight: 900; letter-spacing: 0.05em; color: #ffffff; text-transform: uppercase; margin-top: 10px; }
+        .hero { text-align: center; margin-bottom: 40px; }
+        .badge { display: inline-block; background-color: rgba(225, 29, 72, 0.2); color: #fda4af; padding: 6px 16px; border-radius: 9999px; font-size: 0.85rem; font-weight: 700; margin-bottom: 20px; text-transform: uppercase; border: 1px solid rgba(225, 29, 72, 0.4); }
+        h1 { font-size: 2.3rem; font-weight: 900; margin-bottom: 16px; }
+        .section-block { padding: 30px 0; margin-bottom: 40px; }
+        h2 { font-size: 1.75rem; font-weight: 800; margin-bottom: 25px; text-transform: uppercase; position: relative; padding-bottom: 10px; }
+        h2::after { content: ''; position: absolute; bottom: 0; left: 0; width: 50px; height: 4px; background-color: var(--primary); }
+        .presentation-text p { color: var(--text-main); font-size: 1.15rem; margin-bottom: 20px; }
+        .team-title { font-size: 1.4rem; font-weight: 700; margin: 40px 0 20px 0; border-left: 4px solid var(--primary); padding-left: 12px; color: #ffffff; text-transform: uppercase; letter-spacing: 0.05em; }
+        
+        .grid-dirigeants { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .grid-associes { display: grid; grid-template-columns: repeat(5, 1fr); gap: 15px; }
+        
+        .member-card { background-color: rgba(255, 255, 255, 0.03); padding: 20px 15px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.08); text-align: center; }
+        .member-photo { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; border: 3px solid rgba(255, 255, 255, 0.2); }
+        
+        .grid-associes .member-photo { width: 85px; height: 85px; margin-bottom: 12px; }
+        .member-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 4px; color: #ffffff; }
+        .grid-associes h3 { font-size: 0.95rem; }
+        .role { color: #fda4af; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; margin-bottom: 16px; letter-spacing: 0.05em; }
+        .grid-associes .role { margin-bottom: 12px; font-size: 0.75rem; }
+        
+        .linkedin-btn { display: inline-flex; align-items: center; justify-content: center; background-color: var(--linkedin-color); color: #ffffff; text-decoration: none; padding: 6px 14px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+        .grid-associes .linkedin-btn { padding: 4px 10px; font-size: 0.75rem; }
+        
+        .contact-list { list-style: none; margin-top: 15px; }
+        .contact-item { font-size: 1.15rem; margin-bottom: 12px; color: var(--text-muted); }
+        .contact-item strong { color: #ffffff; }
+        .contact-link { color: #fda4af; text-decoration: none; font-weight: 600; margin-left: 5px; }
+        .contact-link:hover { text-decoration: underline; }
+        footer { text-align: center; margin-top: 80px; font-size: 0.9rem; color: #94a3b8; border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 20px; }
+        
+        @media (max-width: 850px) { 
+            .grid-dirigeants, .grid-associes { grid-template-columns: 1fr; gap: 20px; } 
+            h1 { font-size: 1.8rem; } .structure-name { font-size: 1.8rem; }
+            .grid-associes .member-photo { width: 110px; height: 110px; }
+            .grid-associes h3 { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <img src="Logo-MP.jpg" alt="Logo MANICRAQUE Production" class="logo-img">
+            <div class="structure-name">MANICRAQUE Production</div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <span class="badge">Site en cours de création</span>
+                <h1>Manicraque is coming... (soon)</h1>
+            </section>
+
+            <section class="section-block presentation-text" style="font-weight: bold;">
+                <h2>La Structure</h2>
+                <p>Les Cofondateurs de MANICRAQUE Production (professionnels et responsables d'enseignement expérimentés du cinéma d'animation), aidés de cinq jeunes associés aux compétences complémentaires (issus de formation en animation), ont fondé la structure avec une ambition claire : Créer un pont entre formation et industrie, accompagner les alumni de nos écoles vers leurs premiers emplois et développer de nouveaux projets ambitieux.</p>
+                <p>Cette complémentarité entre l'expérience de professionels confirmés et l'energie d'une nouvelle génération, constitue l'un des fondements de MANICRAQUE Production.</p>
+		<p>Nous nous appuyons sur 2 axes complémentaires : La production d’œuvres originales (courts-métrages et séries de format court) et la prestation de services en animation 2D et hybride 2D-3D.</p>
+            </section>
+
+            <section class="section-block">
+                <h2>L'Équipe</h2>
+                
+                <div class="team-title">Les Dirigeants</div>
+                <div class="grid-dirigeants">
+                    <div class="member-card">
+                        <img src="Rudy-T.jpg" alt="Rudy Turkovics" class="member-photo">
+                        <h3>Rudy Turkovics</h3>
+                        <p class="role">Président</p>
+                        <a href="https://www.linkedin.com/in/rudy-turkovics-45b0181a/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                    <div class="member-card">
+                        <img src="Renzo-M.jpg" alt="Renzo Mezzaluna" class="member-photo">
+                        <h3>Renzo Mezzaluna</h3>
+                        <p class="role">Directeur Général</p>
+                        <a href="https://www.linkedin.com/in/renzo-mezzaluna-47123456/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                    <div class="member-card">
+                        <img src="Nicolas-L.jpg" alt="Nicolas Launay" class="member-photo">
+                        <h3>Nicolas Launay</h3>
+                        <p class="role">Directeur Général</p>
+                        <a href="https://www.linkedin.com/in/nicolas-launay-67541532/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="team-title">Les Associés</div>
+                <div class="grid-associes">
+                    <div class="member-card">
+                        <img src="Julie-C.jpg" alt="Julie Correia" class="member-photo">
+                        <h3>Julie Correia</h3>
+                        <p class="role">Associée</p>
+                        <a href="https://www.linkedin.com/in/julie-correia/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                    <div class="member-card">
+                        <img src="Caroline-C.jpg" alt="Caroline Coantic" class="member-photo">
+                        <h3>Caroline Coantic</h3>
+                        <p class="role">Associée</p>
+                        <a href="https://www.linkedin.com/in/caroline-coantic-74185014a/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                    <div class="member-card">
+                        <img src="Brunelle-L.jpg" alt="Brunelle Laboutique" class="member-photo">
+                        <h3>Brunelle Laboutique</h3>
+                        <p class="role">Associée</p>
+                        <a href="https://www.linkedin.com/in/brunelle-laboutique-3b3927280/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                    <div class="member-card">
+                        <img src="Samuel-D.jpg" alt="Samuel Duby" class="member-photo">
+                        <h3>Samuel Duby</h3>
+                        <p class="role">Associé</p>
+                        <a href="https://www.linkedin.com/in/duby-samuel/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                    <div class="member-card">
+                        <img src="Arthur-M.jpg" alt="Arthur Mezzaluna" class="member-photo">
+                        <h3>Arthur Mezzaluna</h3>
+                        <p class="role">Associé</p>
+                        <a href="https://www.linkedin.com/in/arthur-mezzaluna-268192309/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-block">
+                <h2>Contacts</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <strong>Rudy Turkovics :</strong> 
+                        <a href="mailto:rudy.t@manicraque-production.com" class="contact-link">rudy.t@manicraque-production.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <strong>Renzo Mezzaluna :</strong> 
+                        <a href="mailto:renzo.m@manicraque-production.com" class="contact-link">renzo.m@manicraque-production.com</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 MANICRAQUE Production — Tous droits réservés.</p>
+	<p>Image de fond : Projet "Vie de Fiente" de Sarah Coppin, série 24 x 3mn.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
